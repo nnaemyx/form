@@ -19,7 +19,10 @@ function App() {
   return (
     <div className="text-center mx-auto bg-white w-[380px] p-[20px] border border-t-2 border-t-[#FB4506] border-solid my-[60px]">
       <div className="">
-        <img src={Logo} alt="" className="w-[350px] mb-4" />
+        <div className="relative">
+          <img src={Logo} alt="" className="w-[350px] mb-4" />
+          <h1 className="absolute top-[280px] left-[93px] text-[20px] text-white">Employees Portal</h1>
+        </div>
         <div>
         {result ?  <Toast/> : null}
         </div>
