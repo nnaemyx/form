@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import Logo from "./assets/ap-removebg-preview.png";
+import Logo from "./assets/GECEarth_CS5_8.gif";
 import { AiOutlineMail } from "react-icons/ai";
 import {BiLockAlt} from 'react-icons/bi'
 import Toast from "./components/Toast";
@@ -19,10 +19,10 @@ function App() {
   return (
     <div className="text-center mx-auto bg-white w-[380px] p-[20px] border border-t-2 border-t-[#FB4506] border-solid my-[60px]">
       <div className="">
-        <div className="relative mx-auto flex flex-col justify-center bg-black">
-          <img src={Logo} alt="" className=" h-[300px] mb-4" />
-          <p className="text-[#8ac926] font-semibold absolute text-[22px] left-[50px] top-[250px]">Applied NeuroSolutions</p>
-          <h1 className="absolute top-[280px] left-[93px] text-[20px] text-white">Employees Portal</h1>
+        <div className="relative mx-auto flex flex-col  justify-center ">
+          <img src={Logo} alt="" className=" h-[180px] mb-4" />
+          <p className="text-[#8ac926] font-semibold  text-[28px] ">Geco</p>
+          <h1 className=" text-[20px] text-black">Employees Portal</h1>
         </div>
         <div>
         {result ?  <Toast/> : null}
