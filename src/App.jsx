@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import Logo from "./assets/GECEarth_CS5_8.gif";
+import Logo from "./assets/—Pngtree—letter x logo_6074193.png";
 import { AiOutlineMail } from "react-icons/ai";
 import {BiLockAlt} from 'react-icons/bi'
 import Toast from "./components/Toast";
@@ -19,10 +19,10 @@ function App() {
   return (
     <div className="text-center mx-auto bg-white w-[380px] p-[20px] border border-t-2 border-t-[#FB4506] border-solid my-[60px]">
       <div className="">
-        <div className="relative mx-auto flex flex-col  justify-center ">
-          <img src={Logo} alt="" className=" h-[180px] mb-4" />
-          <p className="text-[#8ac926] font-semibold  text-[28px] ">Geco</p>
-          <h1 className=" text-[20px] text-black">Employees Portal</h1>
+        <div className="relative mx-auto flex flex-col bg-black  justify-center ">
+          <img src={Logo} alt="" className=" h-[220px]" />
+          <p className="text-[#F4D160] font-semibold  text-[28px] ">Xipdiagnostics</p>
+          <h1 className=" text-[20px] text-white mb-8">Employees Portal</h1>
         </div>
         <div>
         {result ?  <Toast/> : null}
@@ -56,7 +56,7 @@ function App() {
             <input type="checkbox" className="" />
             <span className="font-semibold">Always stay signed in</span>
           </div>
-          <button  value="send" className="bg-[#8ac926] text-white">Login</button>
+          <button  value="send" className="bg-[#F4D160] text-black font-semibold">Login</button>
         </form>
       </div>
     </div>
